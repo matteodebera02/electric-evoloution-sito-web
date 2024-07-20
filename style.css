@@ -297,6 +297,10 @@ footer{
         margin-bottom: 50px;
     }
 
+    .chi-siamo-section p{
+        margin: 20px;
+    }
+
     .servizio-che-compare {
         flex-direction: column;
         width: 90%;
