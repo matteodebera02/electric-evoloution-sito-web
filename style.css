@@ -223,7 +223,7 @@ body{
 }
 
 .contatti-img{
-    height: 200px;
+    height: auto;
     width: 200px;
     min-height: 200px;
     min-width: 200px;
