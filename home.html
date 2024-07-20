@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Evolution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <!--div con il Logo-->
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="img/logo.png">
+            </div>
+            <!--div con le sezioni-->
+            <div class="header-section">
+                <ul>
+                    <li><a class="roboto-light-bold">Home</a></li>
+                    <li><a class="roboto-light-bold" onclick="scrollToSection(event, 'lamp-icon')">Chi siamo</a></li>
+                    <li><a class="roboto-light-bold" onclick="scrollToSection(event, 'i-nostri-servizi-id')">I nostri servizi</a></li>
+                    <li><a class="roboto-light-bold" onclick="scrollToSection(event, 'contatti-id')">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <!-- TITOLO HOME  -->
+        <div class="title-container">
+            <h1 class="roboto-light-bold animate__animated animate__backInLeft">Electric Evolution</h1>
+            <br>
+            <h3 class="roboto-light-bold animate__animated animate__backInRight">Energia e sicurezza, il nostro impegno, <br>la tua tranquillità</h3>
+            <br>
+            <p class="roboto-light-bold animate__animated animate__backInLeft">Con oltre 20 anni di esperienza, Electric Evolution risolve ogni problema elettrico e offre certificazioni professionali. Affidati a noi per soluzioni sicure e rapide</p>
+        </div>
+    </div>
+    <!-- INIZIO SEZIONE CHI SIAMO -->
+    <div data-aos="fade-up" class="chi-siamo-section" id="lamp-icon">
+        <div>
+            <img src="img/light-bulb.png" alt="lamp-icon">
+        </div>
+        <h1 class="roboto-light-bold">Chi siamo</h1>
+        <br>
+        <p class="roboto-light-bold">
+            Con oltre 20 anni di esperienza, offriamo servizi elettrici di alta qualità per abitazioni, uffici e industrie. La nostra squadra di elettricisti qualificati garantisce soluzioni sicure ed efficienti per ogni esigenza.
+
+            Siamo orgogliosi di collaborare con importanti realtà come Tigre e Conad, che ci hanno scelto per la nostra affidabilità e professionalità.
+
+            Scegli Electric Evolution per un partner che mette passione e competenza in ogni progetto.
+        </p>
+    </div>
+    <!-- FINE SEZIONE CHI SIAMO -->
+
+    <!-- INIZIO SEZIONE I NOSTRI SERVIZI -->
+    <div data-aos="fade-up" class="i-nostri-servizi-section" id="i-nostri-servizi-id">
+        <h1 class="roboto-light-bold">I nostri servizi</h1>
+    </div>
+    <div class="servizi-container">
+        <div data-aos="fade-up-right" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/impianti-elettrici-industriali.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Impianti elettrici civili e industriali 
+                </h3>
+                <p class="roboto-light-bold">
+                    Offriamo soluzioni elettriche avanzate per abitazioni, uffici e industrie. La nostra esperienza di oltre 20 anni ci permette di progettare e realizzare impianti sicuri, efficienti e conformi alle normative vigenti, garantendo un servizio di alta qualità in ogni settore.
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up-left" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/ali-gr-5-495x400.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Impianti elettrici alimentari 
+                </h3>
+                <p class="roboto-light-bold">
+                    Specializzati in impianti per l'industria alimentare, assicuriamo soluzioni che rispettano i più alti standard igienico-sanitari. Collaboriamo con importanti realtà come Tigre e Conad, che ci hanno scelto per la nostra affidabilità e competenza in questo settore delicato.
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up-right" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/cablaggio-rete-dati.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Rete dati calibrata con certificazione 
+                </h3>
+                <p class="roboto-light-bold">
+                    Progettiamo e installiamo reti dati ad alte prestazioni, garantendo una connettività stabile e sicura. Ogni impianto è certificato per assicurare il massimo della qualità e dell'efficienza, essenziale per uffici e industrie moderne.
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up-left" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/antincendio.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Impianti rilevazione fumo (antincendio) 
+                </h3>
+                <p class="roboto-light-bold">
+                    Realizziamo impianti di rilevazione fumo all'avanguardia, indispensabili per la sicurezza di edifici civili e industriali. La nostra tecnologia avanzata assicura una rapida individuazione degli incendi, proteggendo persone e beni.
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up-right" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/microfono-impianto-evac.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Impianti EVAC (Emergency Voice Alarm Communication)
+                </h3>
+                <p class="roboto-light-bold">
+                    Installiamo sistemi EVAC per una gestione efficace delle emergenze. Questi impianti permettono di comunicare rapidamente e chiaramente con gli occupanti degli edifici, facilitando l'evacuazione in situazioni di emergenza.
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up-left" class="servizio-che-compare">
+            <div class="servizio-img">
+                <img src="img/Impianti-idraulici-per-il-riscaldamento-domestico.jpg">
+            </div>
+            <div class="servizio-descrizione">
+                <h3 class="roboto-light-bold">
+                    Impianti idraulici
+                </h3>
+                <p class="roboto-light-bold">
+                    Oltre ai servizi elettrici, offriamo anche la progettazione e realizzazione di impianti idraulici. Garantiamo soluzioni integrate e di alta qualità per soddisfare ogni esigenza abitativa e industriale, assicurando la massima efficienza e sicurezza.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- FINE SEZIONE I NOSTRI SERVIZI -->
+
+    <!-- INIZIO SEZIONE CONTATTI -->
+    <div data-aos="fade-up" class="contatti-section" id="contatti-id">
+        <h1 class="roboto-light-bold">Contattaci</h1>
+    </div>
+    <div class="all-contact-container">
+        <div data-aos="zoom-in" class="contatti-container">
+            <div class="contatti-img">
+                <img src="img/google_mail_gmail_logo_icon_159346.png" alt="email-img">
+            </div>
+            <div class="contatti-info">
+                <h1 class="roboto-light-bold">Email</h1>
+                <p class="roboto-light-bold">electricevolution74@gmail.com</p>
+            </div>
+        </div>
+        <div data-aos="zoom-in" class="contatti-container">
+            <div class="contatti-img">
+                <img src="img/Whatsapp_icon-icons.com_66931.png" alt="email-img">
+            </div>
+            <div class="contatti-info">
+                <h1 class="roboto-light-bold">Assistenza e richieste</h1>
+                <p class="roboto-light-bold">3929048409</p>
+            </div>
+        </div>
+        <div data-aos="zoom-in" class="contatti-container">
+            <div class="contatti-img">
+                <img src="img/info_information_icon_178159.png" alt="email-img">
+            </div>
+            <div class="contatti-info">
+                <h1 class="roboto-light-bold">Eccoci per tutte le info aziendali</h1>
+                <p class="roboto-light-bold">
+                    <a href="https://eccoci.online/electric-evolution" target="_blank">https://eccoci.online/electric-evolution</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- FINE SEZIONE CONTATTI -->
+
+</body>
+<footer>
+    <p class="roboto-light-bold">
+        Copyright Electric-Evoloution Team Product By MD Berardinis
+    </p>
+</footer>
+
+<!--Scripting-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+    function scrollToSection(event, sectionId) {
+        event.preventDefault();
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</html>

@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--white-background);
+}
+
+:root {
+    --primary-color: #3AA2DC;
+    --secondary-color: #F59426;
+    --white-background: #F9F9F9;
+    --font-size: 16px;
+}
+
+/* -- Font del sito  */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-light-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* -- Fine Font  */
+
+/* INIZIO HEADER */
+.header-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-background); /* Corretto */
+}
+
+.logo-container {
+    height: 70%;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.logo-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-section {
+    width: 50%;
+    height: 70%;
+}
+
+.header-section li{
+    color: var(--secondary-color);
+}
+
+.header-section > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+/* FINE HEADER */
+
+
+/*Inizio main*/
+.main {
+    width: 100%;
+    height: 800px;
+    background-image: url(img/tool-2766835_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container {
+    width: 100%;
+    max-width: 600px; /* Imposta una larghezza massima per evitare che il contenuto diventi troppo largo */
+    text-align: center; /* Centra il testo all'interno del contenitore */
+}
+
+.title-container h1{
+    color: var(--primary-color);
+    font-size: 60px;
+    
+}
+.title-container h3{
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+.title-container p {
+    font-size: 20px;
+}
+
+.title-container h1 {
+    margin-bottom: 10px; /* Spazio sotto l'h1 */
+}
+
+.title-container h3 {
+    margin-bottom: 20px; /* Spazio sotto l'h3 */
+}
+
+/* SEZIONE CHI SIAMO    */
+.chi-siamo-section{
+    width: 100%;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.chi-siamo-section h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+#lamp-icon img{
+    max-height: 300px;
+}
+
+
+/* SEZIONE I nostri servizi    */
+.i-nostri-servizi-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.i-nostri-servizi-section h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+.servizi-container{
+    margin-top: 60px;
+}
+
+.servizio-che-compare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.servizio-img{
+    height: 200px;
+    width: 400px;
+    min-height: 200px;
+    min-width: 400px;
+}
+
+.servizio-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.servizio-descrizione{
+    max-width: 300px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.servizio-descrizione h3{
+    color: var(--secondary-color);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* SEZIONE Contatti    */
+
+.contatti-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contatti-section h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+.all-contact-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contatti-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 80px;
+}
+
+.contatti-img{
+    height: 200px;
+    width: 200px;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+
+.contatti-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.contatti-info{
+    min-width: 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.contatti-info h1{
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+
+.contatti-info p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+/* Media queries per rendere il sito responsive */
+@media (max-width: 768px) {
+    .logo-container{
+        margin-left: 0px;
+        width: 150px;
+    }
+    .header-container{
+        justify-content: stretch;
+    }
+
+    .header-section{
+        width: 100%;
+        font-size: 12px;
+    }
+    .header-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .main {
+        height: 500px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .title-container h1 {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
+    .title-container h3 {
+        font-size: 20px;
+    }
+
+    .title-container p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .servizio-che-compare {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .servizio-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .servizio-descrizione {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .all-contact-container {
+        width: 90%;
+    }
+
+    .contatti-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contatti-img,
+    .contatti-info {
+        max-width: 100%;
+        width: 100%;
+    }
+}
